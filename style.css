@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    background-color:#2e2025;
+;
+	animation: fadeIn 0.6s ease-in-out;
+}
+
+html{
+	overflow: hidden;
+}
+.info-project{
+	font-size: 65px;
+	margin-top:120px;
+	margin-left:300px;
+	color:#c4bea1;
+	animation: fadeIn 2s ease-in-out;
+	transition: color 0.3s ease;
+	
+}
+
+.info-project:hover {
+color: #d9d991;}
+.Text-info{
+	margin-left:335px;
+	font-size: 16px;
+	top: 10px;
+	color:#ffe7c5;
+	animation: fadeIn 2s ease-in-out;
+}
+.Download-text{
+	text-align:center;
+	color:#e5b1b1;
+	animation: fadeIn 2s ease-in-out;
+	
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.Text-obsv{
+	margin-left:335px;
+	font-size: 16px;
+	top: 10px;
+	color: rgba(255, 231, 197, 0.9);
+	animation: fadeIn 2s ease-in-out;
+}
+.otd_1{
+	transition: color 0.3s ease; /* Плавное изменение цвета текста */
+}
+.otd_1:hover {
+  color: #d9d991; /* Цвет текста при наведении мыши */
+}
+.otd_2{
+	transition: color 0.3s ease; /* Плавное изменение цвета текста */
+}
+.otd_2:hover {
+  color: #d6d6ae; /* Цвет текста при наведении мыши */
+}
+.darkened-text {
+  color: rgba(0, 0, 0, 1); /* Цвет текста без затемнения */
+  transition: color 0.5s ease; /* Плавное изменение цвета текста */
+}
+
+.popular{
+	text-align: center;
+	font-size: 20px;
+	top: 10px;
+	color:#e37854;
+	margin-top:16px;
+}
+
+a{
+	color:#f1c76d;
+}
+
+
+
+
+
+#image{
+	margin-left:823px;
+	height:100px;
+}
+
+
+#Main-page{
+	color: #7c707d; /* Цвет ссылок */
+	text-decoration: none; /* Убираем подчеркивание */
+	
+}
+
+#Telega{
+	color: #22c5e6; /* Цвет ссылок */
+	text-decoration: none;
+}
+
+#Youtube{
+	color: #bbe657; /* Цвет ссылок */
+	text-decoration: none;
+}
